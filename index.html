@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#fffdf4">
+	<title>The UX Review — Independent Design Journalism</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<header class="site-header">
+			<a class="logo" href="#home" aria-label="The UX Review home">The UX <span>Review</span><i>.</i></a>
+			<nav class="primary-nav" aria-label="Main navigation">
+				<a href="#home" aria-current="page">Home</a>
+				<a href="#latest">Latest articles</a>
+				<a href="#authors">Authors</a>
+				<a href="#community">Community</a>
+			</nav>
+			<a class="subscribe-btn" href="mailto:hello@theuxreview.example?subject=Subscribe%20to%20The%20UX%20Review">Subscribe <span aria-hidden="true">↗</span></a>
+		</header>
+
+		<main id="home" class="main-grid">
+			<section id="latest" class="articles" aria-label="Latest articles">
+				<div class="section-heading">
+					<div>
+						<p class="eyebrow"><span class="live-dot"></span> The independent design journal</p>
+						<h1>Good design<br>has <span>something to say.</span></h1>
+					</div>
+					<p class="issue-note">ISSUE 04<br>WINTER 2025</p>
+				</div>
+
+				<article class="article-card">
+					<img class="article-image image-tech" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="A laptop displaying a web design project on a desk">
+					<div class="article-content">
+						<span class="badge badge-tech">TECH</span>
+						<h2><a href="#article-edge">Why Your Website Needs More Edge</a></h2>
+						<p id="article-edge">Exploring the psychological impact of bold, unapologetic design choices on user engagement and brand perception in the digital age.</p>
+						<div class="card-meta"><span>BY ALEX BRUTAL</span><span>JAN 8, 2025</span><span aria-label="127 likes">♥ 127</span></div>
+					</div>
+					<a class="read-link" href="#article-edge" aria-label="Read Why Your Website Needs More Edge">↗</a>
+				</article>
+
+				<article class="article-card">
+					<img class="article-image image-design" src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="A designer working at a computer in a bright studio">
+					<div class="article-content">
+						<span class="badge badge-design">DESIGN</span>
+						<h2><a href="#article-type">Typography That Screams</a></h2>
+						<p id="article-type">How to choose and implement bold typography that commands attention without sacrificing readability or user experience.</p>
+						<div class="card-meta"><span>BY ARNOLD REEVE</span><span>JAN 6, 2025</span><span aria-label="89 likes">♥ 89</span></div>
+					</div>
+					<a class="read-link" href="#article-type" aria-label="Read Typography That Screams">↗</a>
+				</article>
+
+				<article class="article-card">
+					<img class="article-image image-culture" src="https://images.unsplash.com/photo-1523726491678-bf852e717f6a?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Colorful design materials spread across a creative workspace">
+					<div class="article-content">
+						<span class="badge badge-culture">CULTURE</span>
+						<h2><a href="#article-culture">The Anti-Instagram Movement</a></h2>
+						<p id="article-culture">Young creators are abandoning polished feeds for raw, authentic content that celebrates imperfection and real human connection.</p>
+						<div class="card-meta"><span>BY MIKE EDGE</span><span>JAN 4, 2025</span><span aria-label="203 likes">♥ 203</span></div>
+					</div>
+					<a class="read-link" href="#article-culture" aria-label="Read The Anti-Instagram Movement">↗</a>
+				</article>
+			</section>
+
+			<aside class="sidebar" aria-label="Explore The UX Review">
+				<section class="sidebar-box" aria-labelledby="trending-heading">
+					<div class="sidebar-title"><span class="title-mark">↗</span><h2 id="trending-heading">Trending now</h2></div>
+					<ol class="trending-list">
+						<li class="trending-item"><span class="trending-num">01</span><div><h3>The Death of Minimalism</h3><p>12.5K reads <span>·</span> <b>Trending</b></p></div></li>
+						<li class="trending-item"><span class="trending-num">02</span><div><h3>Chaos as a Design System</h3><p>8.2K reads <span>·</span> Rising</p></div></li>
+						<li class="trending-item"><span class="trending-num">03</span><div><h3>Digital Rebellion</h3><p>6.7K reads <span>·</span> Hot</p></div></li>
+					</ol>
+				</section>
+
+				<section class="sidebar-box categories" aria-labelledby="categories-heading">
+					<div class="sidebar-title"><span class="title-mark">#</span><h2 id="categories-heading">Categories</h2></div>
+					<a class="category-item cat-1" href="#latest"><span>Tech</span><span>24</span></a>
+					<a class="category-item cat-2" href="#latest"><span>Design</span><span>18</span></a>
+					<a class="category-item cat-3" href="#latest"><span>Culture</span><span>15</span></a>
+					<a class="category-item cat-4" href="#latest"><span>Opinion</span><span>12</span></a>
+					<a class="category-item cat-5" href="#latest"><span>Tutorials</span><span>09</span></a>
+				</section>
+
+				<section id="community" class="community-box">
+					<p class="eyebrow">A little more signal</p>
+					<h2>Design talk, no fluff.</h2>
+					<p>Join curious people making the internet a more interesting place.</p>
+					<a href="mailto:hello@theuxreview.example?subject=Join%20the%20community">Meet the community <span aria-hidden="true">↗</span></a>
+				</section>
+			</aside>
+		</main>
+
+		<footer id="authors" class="site-footer"><span>THE UX REVIEW © 2025</span><span>Made for people who care how things feel.</span></footer>
+	</div>
+</body>
+</html>
